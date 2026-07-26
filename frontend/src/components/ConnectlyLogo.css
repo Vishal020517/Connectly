@@ -1,0 +1,37 @@
+.connectly-logo {
+  color: #ffffff;
+  flex-shrink: 0;
+  display: block;
+}
+
+.connectly-logo-dot {
+  fill: currentColor;
+}
+
+.connectly-logo--animated .connectly-logo-ring {
+  transform-origin: 50px 50px;
+  animation: connectly-spin 48s linear infinite;
+}
+
+.connectly-logo--animated .connectly-logo-dot {
+  animation: connectly-pulse 3s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 0.15s);
+}
+
+@keyframes connectly-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes connectly-pulse {
+  0%, 100% { opacity: 0.55; }
+  50%       { opacity: 1; }
+}
+
+.connectly-wordmark {
+  font-size: 1.15em;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #fff;
+  line-height: 1;
+}

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+pymongo
+chromadb
+langchain
+langchain-groq
+langgraph
+langchain-nvidia-ai-endpoints
