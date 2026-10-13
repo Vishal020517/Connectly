@@ -1,4 +1,4 @@
-# WhisperNet — AI Hiring Platform
+# Connectly — AI Hiring Platform
 
 ## Stack
 - **AI / Backend** — Python, LangGraph, FastAPI, MongoDB, ChromaDB
